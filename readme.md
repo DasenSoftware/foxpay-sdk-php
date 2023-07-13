@@ -24,7 +24,7 @@ PHP 要求 PHP 7.0 及以上。
 
 ### 手动安装
 
-源码下载：[foxpay-sdk](https://github.com/dasen-software/foxpay-sdk.git )
+源码下载：[foxpay-sdk](https://github.com/DasenSoftware/foxpay-sdk-php)
 
 
 #### 依赖拓展
