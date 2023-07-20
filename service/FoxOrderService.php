@@ -13,7 +13,7 @@ class FoxOrderService
     //创建订单地址
     const ORDER_CREATE_URL = '/sdk/application/createApplicationOrder';
     //查询订单地址
-    const ORDER_QUERY_URL = '/orderQuery';
+    const ORDER_QUERY_URL = '/sdk/application/getApplicationOrder';
     //关闭订单地址
     const CLOSE_ORDER_URL = '/sdk/application/closeApplicationOrder';
     //查询金额地址
