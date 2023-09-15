@@ -94,6 +94,7 @@ class FoxPayAppConfig
         'to_address' => '0x3810fe9f57f2f792a1522088c1a62d14cd5b86c4',  //必须
         'notify_url' => '',  //选传
         'remark' => ''  //选传
+        'gas_type' => '2'  //必传  手续费扣除：2 交易金额 3 账户余额,从service.transPrepare(transParamPrepareParam)获取
     ]; 
     
     //提现确认参数

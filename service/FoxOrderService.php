@@ -109,6 +109,10 @@ class FoxOrderService
             throw new FoxPayException(CodeEnum::PARAM_ERROR,'to_address');
         }
 
+        if(!$data['gas_type']){
+            throw new FoxPayException(CodeEnum::PARAM_ERROR,'gas_type');
+        }
+
         return FoxPayRequestUtil::orderRequest(self::TRANS_PREPARE_URL,$data,FoxPayAppConfig::getConfig());
     }
 
